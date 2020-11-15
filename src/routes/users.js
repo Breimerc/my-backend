@@ -7,7 +7,6 @@ const validator = require('express-joi-validation').createValidator({});
 const { cbackUsers } = require('../controllers/users');
 
 module.exports = () => {
-
     router.get('/users', 
         validator.query(
             Joi.object({
