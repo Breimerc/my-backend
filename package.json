@@ -1,0 +1,26 @@
+{
+  "name": "app_videos",
+  "version": "1.0.0",
+  "description": "app videos",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "app": "nodemon src/server.js"
+  },
+  "author": "Christopher Herrera",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint": "^7.13.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "express-joi-validator": "^2.0.1",
+    "jest": "^26.6.3",
+    "joi": "^17.3.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
